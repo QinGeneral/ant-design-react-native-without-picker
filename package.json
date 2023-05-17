@@ -135,7 +135,8 @@
     "lint-staged": "lint-staged",
     "lint-staged:ts": "npm run tsc && eslint components/**/*.tsx",
     "lint-staged:es": "eslint ./.eslintrc.js",
-    "tsc": "antd-tools run tsc"
+    "tsc": "antd-tools run tsc",
+    "publish": "npm run pub"
   },
   "lint-staged": {
     "components/**/*.tsx": [
