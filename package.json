@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/react-native",
+  "name": "@trippal/react-native",
   "version": "5.0.4",
-  "description": "基于蚂蚁金服移动设计规范的 React Native 组件库",
+  "description": "基于 ant-design/react-native 组件库的修改版本",
   "keywords": [
     "ant",
     "design",
@@ -17,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/ant-design/ant-design-mobile-rn"
+    "url": "https://git.dev.sh.ctripcorp.com/IT-OAAPP/trippal_rn_ant"
   },
   "bugs": {
-    "url": "http://github.com/ant-design/ant-design-mobile-rn/issues"
+    "url": "https://git.dev.sh.ctripcorp.com/IT-OAAPP/trippal_rn_ant/-/issues"
   },
   "files": [
     "lib",
