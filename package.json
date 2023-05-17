@@ -117,7 +117,7 @@
     "pre-publish": "npm run test:all",
     "prepublish": "antd-tools run guard",
     "prepare": "antd-tools run guard",
-    "prepublishOnly": "antd-tools run guard",
+    "prepublishOnly": "npm run pub",
     "test": "jest --config .jest.config.js",
     "test:all": "./scripts/test-all.sh",
     "compile": "cross-env BABEL_ENV=dist antd-tools run compile",
@@ -135,8 +135,7 @@
     "lint-staged": "lint-staged",
     "lint-staged:ts": "npm run tsc && eslint components/**/*.tsx",
     "lint-staged:es": "eslint ./.eslintrc.js",
-    "tsc": "antd-tools run tsc",
-    "publish": "npm run pub"
+    "tsc": "antd-tools run tsc"
   },
   "lint-staged": {
     "components/**/*.tsx": [
