@@ -1,5 +1,5 @@
 {
-  "name": "@ctrip/trippal-react-native",
+  "name": "ant-design-react-native-without-picker",
   "version": "5.0.4",
   "description": "基于 ant-design/react-native 组件库的修改版本",
   "keywords": [
@@ -17,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://git.dev.sh.ctripcorp.com/IT-OAAPP/trippal_rn_ant"
+    "url": "https://github.com/QinGeneral/ant-design-react-native-without-picker"
   },
   "bugs": {
-    "url": "https://git.dev.sh.ctripcorp.com/IT-OAAPP/trippal_rn_ant/-/issues"
+    "url": "https://github.com/QinGeneral/ant-design-react-native-without-picker/issues"
   },
   "files": [
     "lib",

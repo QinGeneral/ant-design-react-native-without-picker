@@ -1,10 +1,8 @@
-# TripPal 修改版 ant-design-mobile-rn
+# 修改版 ant-design-mobile-rn
 
-此工程主要作为 TripPal 项目中 RN 组件库使用。
+此工程 fork 自 [ant-design-mobile-rn](https://github.com/ant-design/ant-design-mobile-rn)，并做了一些修改。
 
-此工程 fork 自 [ant-design-mobile-rn](https://github.com/ant-design/ant-design-mobile-rn)，并做了一些修改。修改的原因是，ant-design-mobile-rn 本身引入的 picker 库和 CRN 自带的 picker 冲突。
-
-修改点主要是移除了以下组件，以保证可以和 CRN 同时使用：
+修改点主要是移除了以下组件：
 1. picker
 2. picker-view
 3. date-picker
