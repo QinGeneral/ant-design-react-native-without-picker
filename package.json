@@ -117,7 +117,7 @@
     "pre-publish": "npm run test:all",
     "prepublish": "antd-tools run guard",
     "prepare": "antd-tools run guard",
-    "prepublishOnly": "npm install --legacy-peer-deps --save && npm run pub",
+    "prepublishOnly": "npm install --force && npm run pub",
     "test": "jest --config .jest.config.js",
     "test:all": "./scripts/test-all.sh",
     "compile": "cross-env BABEL_ENV=dist antd-tools run compile",
